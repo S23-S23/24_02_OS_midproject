@@ -143,14 +143,9 @@ void sell_item(struct Item** items, int* numItems, int* maxItems) {
     getchar();
 }
 void sales_history(struct Item** items, int numItems) {
-    printf("test");
     bool bsalehistory = true;
     while (bsalehistory)
     {
-        printf("Number of items: %d", numItems);
-
-        printf("test2");
-
         system("cls");
         printf("판매 내역:\n");
         printf("--------------------------------------------------\n");
